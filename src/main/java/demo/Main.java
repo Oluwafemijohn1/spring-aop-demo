@@ -9,6 +9,7 @@ public class Main {
 
         ShoppingCart shoppingCart = context.getBean(ShoppingCart.class);
         shoppingCart.checkout("Cancelled", "Name");
+        shoppingCart.quantity();
 
     }
 }
