@@ -14,7 +14,12 @@ public class ShoppingCart {
      *
      * Each one is called aspect.
      * */
-    public void checkout(){
+    public void checkout(String status, String target){
         System.out.println("Checkout method from shopping cart");
+    }
+
+    public int quantity(){
+        System.out.println("Running quantity");
+        return 2;
     }
 }
